@@ -1,0 +1,4 @@
+selector priority:
+------------------
+id > class > element (Rule of thumb: doesn't matter which comes last)
+

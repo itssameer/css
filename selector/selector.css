@@ -1,0 +1,11 @@
+p { /* Element Selectors*/
+    color: red;
+}
+
+#p3 { /* Id Selectors*/
+    color: green;
+}
+
+.p {
+    font-size: 20px;
+}

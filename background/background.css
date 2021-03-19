@@ -1,0 +1,162 @@
+.main{
+    /* background-color: green; */
+    height: 800px;
+    width: 300px;
+    background-image: url("./image.jpg"); /* for multi images: url(), url().....*/
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% ;
+    /* background-attachment: fixed; */
+    /* short hand 
+    background: 
+    */
+}
+
+
+.height-width {
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    /* white-space: nowrap; this is used for manual formating not default browser formatting */
+    /* how to break the big word*/
+    /* word-wrap: break-word;  if word is bigger than the container*/
+/*
+ * when you want to make the text elipsis when it exceeds the container
+ *
+  overflow: hidden;
+  text-overflow: ellipsis;
+  */
+   
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding-left: 1.3em;
+  }
+
+li::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+/*
+overflow should be either auto || scroll || hidden
+
+.resize{
+    overflow: auto;
+    width: 100px;
+    height: 100px;
+    resize: both;
+    border: 1px solid black;
+}
+*/
+
+/*
+textarea {
+    resize: none;
+}
+
+*/
+/*
+.body{
+    width: 300px;
+}
+
+.over-flow{
+    white-space: nowrap;
+    overflow: hidden || scroll
+    (or)
+    overflow-x: hidden; || auto
+    overflow-y: scroll
+}
+*/
+/** 
+Ancher tag (<a>) has 4 states
+1. :link (normal stae)
+2. :visited (when we clicked and came back
+3. :hover ( mouse hover)
+4. :active (when we clicked)
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:link {
+    color: black;
+}
+a:visited {
+    color:red;
+}
+
+a:hover {
+
+}
+
+a:active {
+    color: yellow;
+}
+
+*/
+
+/* 
+     Units
+
+    Absolute: -> cm, mm, inch, px, pt, pc
+
+    Relative: -> em, rem, vh, vw, %
+
+    em:-> em is relative to the size of its direct parent 1-> 100% 2-> 200%
+    Rem:-> rem is only relative to root (default borser font size)
+    vh-> view port height
+    vw -> view port width
+    % -> relative to parent
+*/
+
+/* 
+Cursor
+
+cursor: all-scroll || cell || col-resize || crosshair || e-resize || grab || help || not-allowed || pointer || progress || wait || zoom-in || zoom-out;
+
+box-shadow: x y blur spred color inset || outset
+
+*/
+
+/*
+
+filter
+
+filter: blur() || brightness() || contrast() || drop-shadow() || grayscale()
+
+*/
+
+/*
+sprite images
+
+only used in background-img not in <img>
+multiple images in the same file , reduces server call for small icons
+*/  
+
+
+/*
+gradients
+
+1. linear gradient
+2. circle gradient
+
+background-image: linear-gradient( to right|| left || top || bottum,  color1, color2, .....)
+*/
+
+/* Style list 
+
+list-style-type: disk || circle || square (UL)
+
+list-style-type: upper-alpha || lower-alpha || lower-roman...
+
+// for giving images 
+

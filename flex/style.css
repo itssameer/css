@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    border: 20px solid black;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow:row-reverse wrap ; */
+}
+
+.child1{
+    width:200px;
+    height: 200px;
+    background: orangered;
+
+    /* flex-grow: 1;
+       flex-shrink: 0; 
+       flex-basis: auto; its basically the width
+    */
+    flex:0 1 800px;
+}
+.child2{
+    width:200px;
+    height: 200px;
+    background: blue;
+}
+.child3{
+    width:200px;
+    height: 200px;
+    background: magenta;
+}
+.child4{
+    display: none;
+    width:200px;
+    height: 200px;
+    background:maroon;
+}
+.child5{
+    display: none;
+    width:200px;
+    height: 200px;
+    background: rgb(123, 205, 102);
+}
